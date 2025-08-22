@@ -170,6 +170,9 @@ nav .checkbtn {
 
 /* Responsive media query code for small screen */
 @media (max-width: 890px) {
+  html, body{
+      overflow-x: hidden;
+  }
   nav{
     padding: 0;
   }
@@ -983,4 +986,5 @@ footer .copyright{
   footer .colonne .titre{
     color: var(--creme_clear)
   }
+
 }
