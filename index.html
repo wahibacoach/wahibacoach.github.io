@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Navbar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome Link for Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+ <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+
+<body class="cairo">
+  <nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- Site logo -->
+    <label class="logo aref">كوتش وهيبة <img src="img/flower.png"></label>
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="#reserve">احجزي الآن</a></li>
+      <li><a href="#formations">الدورات</a></li>
+      <li><a href="#seances">الجلسات</a></li>
+      <li><a href="#meditations">التأملات</a></li>
+      <li><a href="#peat" dir="rtl">تقنية PEAT</a></li>
+      <li><a href="#about_me">من أنا ؟</a></li>
+    </ul>
+  </nav>
+
+
+
+
+
+  <!-- ============== Principal Page ============== -->
+  <section class="principal flex-centered">
+    <div class="left-part">
+        <img src="img/portrait3.jpg">
+    </div>
+
+    <div class="right-part">
+        <p dir="rtl">
+          مرحبًا، أنا حميداش وهيبة، مدربة معتمدة في تقنية PEAT.
+أسعى لمرافقتك في رحلة شفاء داخلي وتحرر من التوترات والمشاعر السلبية باستخدام أدوات فعالة وعميقة.
+        </p>
+        <a href="#reserve">ابدئي العلاج الآن</a>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- ============== ABOUT ME ============== -->
+  <section class="section1" dir="rtl" id="about_me">
+    <img src="img/flowers.png">
+    <h2 data-aos="fade-up-left">من أنا ؟</h2>
+    <p dir="rtl" data-aos="fade-up" data-aos-duration="1500">
+      اسمي حميداش وهيبة، مدربة في التنمية الذاتية ومعالجة نفسية، متخصصة في تقنية PEAT.
+اكتشفت هذه التقنية في مرحلة من حياتي كنت أبحث فيها عن السلام الداخلي، ووجدت فيها أداة فعالة لتحرير المشاعر العميقة.
+أرافق اليوم الأشخاص الذين يبحثون عن التوازن والتحرر من برمجيات الماضي ليعيشوا حياة أكثر انسجامًا وصفاءً.
+    </p>
+
+    <div class="icones flex-centered" data-aos="fade-up" data-aos-duration="1500">
+      <div>
+        <img src="img/handshake.svg">
+        <p>خبرة في الجلسات الفردية والجماعية</p>
+      </div>
+
+      <div>
+        <img src="img/diploma.svg">
+        <p>حاصلة على شهادة معتمدة في تقنية الPEAT وشهادة ليسانس في علم النفس</p>
+      </div>
+
+      <div>
+        <img src="img/online.svg">
+        <p>تنظيم ورشات عن بعد</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ============== What is PEAT ? ============== -->
+  <section class="peat" dir="rtl" id="peat">
+    <img src="img/wave2.png" class="image1">
+    <img src="img/flower2.png" class="image2">
+    <img src="img/wave.png" class="image3">
+    <h1 data-aos="fade-down" data-aos-duration="1500">ما هو ال PEAT ؟</h1>
+    <h2 data-aos="fade-up" data-aos-duration="1500">هل تحسين أحيانا أن هناك شيئا بداخلك يؤلمك ولم تجدي الشخص المناسب لتعبري له عن ذلك ؟</h2>
+
+    <p data-aos="fade-up" data-aos-duration="1500">
+إذا كنتِ تحملين في قلبك مشاعر قديمة تؤلمك، أو تعانين من توتر لا تعرفين سببه، فجلسة PEAT قد تكون الخطوة التي تحتاجينها للراحة والتوازن.
+    </p>
+
+    <ul class="flex-centered" data-aos="fade-up" data-aos-duration="1500">
+      <li>
+        <i class="fa-solid fa-heart"></i>
+        <p>راحة نفسية عميقة</p>
+      </li>
+      <li>
+        <i class="fa-brands fa-fly"></i>
+        <p>تحرر من مشاعر الماضي</p>
+      </li>
+      <li>
+        <i class="fa-solid fa-cloud"></i>
+        <p>هدوء وسلام داخلي</p>
+      </li>
+    </ul>
+
+    <p data-aos="fade-up"><b>تقنية PEAT</b> هي طريقة نفسية-طاقية حديثة تهدف إلى تحرير المشاعر والانفعالات العالقة في أعماقنا، والتعامل مع جذور الألم النفسي بطريقة لطيفة وآمنة. تُستخدم لمساعدتك على تجاوز الصدمات، التوتر، والمشاعر المتكررة مثل الخوف أو الغضب، لتعود إلى حالة من الصفاء والسلام الداخلي.</p>
+
+    <div class="quote flex-centered" data-aos="fade-up" data-aos-duration="1500">
+      
+      <blockquote>
+        <i class="fa-solid fa-quote-right"></i>
+بعد أول جلسة PEAT حسّيت براحة غريبة، وكأن حمل ثقيل نزل من قلبي. فهمت مشاعري وبكيت، لكن كانت دموع شفاء.
+      </blockquote>
+    </div>
+  </section>
+
+
+  
+
+  <!-- ============== MOTIVATION ============== -->
+  <section class="peat2" dir="rtl">
+    <h1 data-aos="fade-down" data-aos-duration="1500">منزلك هو مكان شفاءك</h1>
+    <h2 data-aos="fade-up" data-aos-duration="1500">يمكنك حجز جلسة أو التسجيل في دورة بكل سهولة عبر التلغرام.</h2>
+    <img src="img/arrow.png" class="arrow-down" data-aos="fade-up" data-aos-duration="1500">
+  </section>
+
+
+
+
+  <!-- ============== الجلسات ============== -->
+  <section class="section2" id="seances">
+    <h1 data-aos="fade-left" data-aos-duration="1500">الجلسات
+      <p data-aos="fade-up" data-aos-duration="1500">ابتداءا من 6000دج فقط</p>
+      <p data-aos="fade-up" data-aos-duration="1500">(ستميات ألف سنتيم)</p>
+      
+      <div class="how-to" data-aos="fade-up" data-aos-duration="1500">
+        <h3>كيف تتم الجلسة ؟</h3>
+        <p>
+تتم الجلسة عبر تطبيق تلغرام، في موعد تتفقين عليه مع الكوتش. مدتها حوالي ساعة، وخلالها تستمع الكوتش لكِ باهتمام وتوجهك خطوة بخطوة لمساعدتك على تحرير مشاعرك وفهم نفسك أكثر. كل ما تحتاجينه هو هاتفك أو حاسوبك واتصال بالإنترنت، ومكان هادئ لتشعري بالراحة والخصوصية التامة.
+        </p>
+      </div>
+    </h1>
+    
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-left" data-aos-duration="1500">
+      
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <h3>جلسة السلام الداخلي</h3>
+        <p>
+هل شعرتِ يوماً أنكِ أقل مما تستحقينه؟ دورة تقدير الذات هذه ستأخذكِ في رحلة لاكتشاف قوتكِ الداخلية وتعلمكِ كيف تحبين نفسكِ بصدق. ستتخلصين من الخوف والشك، وتبدئين تنظرين إلى حياتكِ بعيون جديدة مليئة بالثقة والجرأة. إذا كنتِ ترغبين في التحرر من القيود التي تمنعكِ من النجاح والسعادة، فهذه الدورة هي خطوتكِ الأولى نحو حياة أجمل وأكثر إشراقًا.
+
+        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/peat.jpg" data-aos="fade-right" data-aos-duration="1500">
+      
+      <div dir="rtl" data-aos="fade-left" data-aos-duration="1500">
+        <h3>جلسة PEAT</h3>
+        <p>
+هل تشعرين أحيانًا بثقل داخلي أو توتر لا تعرفين مصدره؟ جلسة PEAT تساعدكِ على تحرير هذه الطاقات السلبية بطريقة لطيفة وعميقة. ستشعرين بعدها براحة نفسية وهدوء جديد، وكأنّك بدأتِ صفحة جديدة في حياتكِ. هذه الجلسة مخصصة لكل امرأة تريد أن تتحرر من ضغوط الماضي وتعيش حياة أكثر صفاءً وثقة.
+
+        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/enfant_interieur.jpg" data-aos="fade-left" data-aos-duration="1500">
+      
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <h3>جلسة علاج الطفل الداخلي</h3>
+        <p>
+جلسة علاج الطفل الداخلي هي رحلة عاطفية عميقة تهدف إلى مداواة الجراح القديمة المرتبطة بمراحل الطفولة. من خلال هذه الجلسة، يتم التواصل مع الطفل الداخلي الذي لا يزال يحمل في داخله مشاعر الخوف، الهجر، الرفض، الإهانة والعار، الظلم والخيانة، والعمل على احتوائه بلطف ومحبة. باستخدام تقنيات دقيقة وآمنة، تساعد الجلسة على تحرير تلك المشاعر المتجذّرة، واستبدالها بالأمان والتقدير والتقبل. إنها خطوة مهمة نحو التصالح مع الذات، وعيش حياة أكثر توازنًا وهدوءًا.
+        </p>
+
+        <a href="#reserve" class="btn">احجزي الآن</a>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- ============== الدورات ============== -->
+  <section class="section2" id="formations">
+    <h1 data-aos="fade-left" data-aos-duration="1500">الدورات
+      <p data-aos="fade-up" data-aos-duration="1500">ابتداءا من 4000دج فقط</p>
+
+      <div class="how-to" data-aos="fade-up" data-aos-duration="1500">
+        <h3>كيف تتم الدورة ؟</h3>
+        <p>
+          <ul dir="rtl">
+            <li>بعد التسجيل، تنضمين إلى مجموعة خاصة على تلغرام مخصّصة للمشاركات فقط.</li>
+            <li>خلال الدورة، ستقدّم الكوتش دروساً وتعليماً مباشراً عبر جلسات لايف أسبوعية داخل المجموعة.</li>
+            <li>في هذه الجلسات ستتعلّمين المفاهيم، التقنيات، وتمارسين بشكل عملي.</li>
+            <li>المجموعة تبقى مفتوحة للتفاعل بين المشتركات وتبادل التجارب.</li>
+          </ul>
+        </p>
+      </div>
+    </h1>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-left" data-aos-duration="1500">
+      
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <h3>دورة تقدير الذات</h3>
+        <p>
+          جلسة السلام الداخلي هي مساحة آمنة وهادئة تُمنح فيها لنفسك الفرصة للتواصل العميق مع ذاتك، وتحرير التوترات والمشاعر المكبوتة. من خلال تقنيات تأملية وتقنيات PEAT العميقة، تساعدك الجلسة على تهدئة العقل، وتهذيب العواطف، واستعادة توازنك الداخلي. إنها لحظة صمت مع الذات، تُعيدك إلى حالة من الطمأنينة، وتمنحك شعورًا بالانسجام بين الجسد والعقل والروح.
+        </p>
+
+        <a href="#reserve" class="btn">احجزي الآن</a>
+      </div>
+    </div>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-right" data-aos-duration="1500">
+      
+      <div dir="rtl" data-aos="fade-left" data-aos-duration="1500">
+        <h3>دورة التخطيط</h3>
+        <p>
+          هل تجدين نفسكِ أحيانًا تائهة بين الأحلام والواقع؟ دورة التخطيط ستساعدكِ على تنظيم حياتكِ بطريقة واضحة وفعالة. ستتعلمين كيفية وضع أهداف واضحة، ترتيب أولوياتكِ، وتحديد الخطوات العملية لتحقيق أحلامكِ الكبيرة أو الصغيرة. هذه الدورة هي المفتاح لتحويل الأفكار إلى أفعال، ولتصبح حياتكِ أكثر انتظامًا ونجاحًا.
+        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-left" data-aos-duration="1500">
+      
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <h3>دورة العلاقات</h3>
+        <p>
+هل تشعرين بأن علاقاتكِ تحتاج إلى المزيد من الفهم والانسجام؟ دورة العلاقات مصممة لتساعدكِ على فهم نفسكِ والآخرين بشكل أعمق، وتطوير مهارات التواصل والحب الصحي. ستتعلمين كيف تبنين علاقات قائمة على الاحترام والثقة، وكيف تتجاوزين الصراعات والمشاكل لتجديد روابطكِ مع من تحبين، سواء كان شريكًا، أسرة أو أصدقاء.        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-right" data-aos-duration="1500">
+      
+      <div dir="rtl" data-aos="fade-left" data-aos-duration="1500">
+        <h3>دورة جذب الشريك</h3>
+        <p>
+هل تبحثين عن الحب الحقيقي والشريك المناسب الذي يكملكِ؟ دورة جذب الشريك تركز على تنمية داخلكِ، رفع طاقتكِ الإيجابية، وفهم ما تحتاجينه حقًا في العلاقة. من خلال هذه الدورة، ستتعلمين كيف تظهري بأفضل نسخة من نفسكِ، مما يجعل الحب الحقيقي يقترب منكِ بشكل طبيعي وصادق، لتبدئي قصة جديدة من السعادة والانسجام.
+        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+
+  <!-- ============== التأملات ============== -->
+  <section class="section2" id="meditations">
+    <h1 data-aos="fade-left" data-aos-duration="1500">التأملات
+      <p data-aos="fade-up" data-aos-duration="1500">ابتداءا من 4000دج فقط</p>
+
+      <div class="how-to" data-aos="fade-up" data-aos-duration="1500">
+        <h3>كيف يتم التأمل ؟</h3>
+        <p>
+          <ul dir="rtl">
+            <li>بعد التسجيل، تنضمّين مباشرةً إلى مجموعة خاصة على تلغرام.</li>
+            <li>الكوتش تشاركك هناك رسائل صوتية للتأملات بشكل منتظم.</li>
+            <li>هذه الرسائل تبقى محفوظة في المجموعة، ويمكنك سماعها في أي وقت يناسبك دون قيود.</li>
+            <li>يعني حتى لو فاتك وقت الإرسال المباشر، يبقى بإمكانك العودة والاستماع متى أردتِ.</li>
+          </ul>
+        </p>
+      </div>
+    </h1>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-left" data-aos-duration="1500">
+      
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <h3>تأمل اسم الله النور</h3>
+        <p>
+هل تودين أن تعمّي حياتكِ طاقة من السلام والصفاء؟ تأمل اسم الله "النور" هو تجربة روحية تساعدكِ على تنظيف قلبكِ وعقلكِ من الطاقة السلبية، وتجديد روحكِ بنور الله العظيم. هذا التأمل يمنحكِ شعورًا عميقًا بالسكينة والراحة، ويقودكِ نحو حياة أكثر توازنًا وسعادة.        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-right" data-aos-duration="1500">
+      
+      <div dir="rtl" data-aos="fade-left" data-aos-duration="1500">
+        <h3>تأمل تحسين العلاقة</h3>
+        <p>
+هل ترغبين في تقوية روابط الحب والتفاهم مع شريككِ أو حتى مع ذاتكِ؟ تأمل تحسين العلاقة يساعدكِ على تحرير المشاعر السلبية التي قد تعيق التواصل، وزرع بذور المحبة والتسامح في قلبكِ. من خلال هذا التأمل، ستشعرين بتجدد في العلاقة، وزيادة في التفاهم والانسجام بينكما، لتعيشي علاقة أكثر حبًا وهدوءًا.
+
+        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+
+    <!-- sub-section -->
+    <div class="sub flex-centered" dir="rtl">
+      <img src="img/interior_peace.jpg" data-aos="fade-left" data-aos-duration="1500">
+      
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <h3>موزاييك أنوثة</h3>
+        <p>
+هل تودين اكتشاف جوهركِ الأنثوي الحقيقي والتعبير عنه بكل ثقة؟ برنامج موزاييك أنوثة يجمع بين تمارين مميزة، تأملات عميقة، ونصائح عملية تساعدكِ على تعزيز طاقتكِ الأنثوية. هذه الدورة تدعمكِ لتعيشي أنوثة متكاملة تفيض بالحب والأنوثة والرقة، وتمنحكِ القوة الداخلية التي تبرز جمالكِ وروحكِ الفريدة.
+
+        </p>
+
+        <a href="#reserve" class="btn">احجز الآن</a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ============== Reviews ============== -->
+  <section class="section3" dir="rtl">
+    <h1 data-aos="fade-down" data-aos-duration="1500">آراء العملاء</h1>
+
+    <div class="reviews">
+    <div class="review" data-aos="fade-up" data-aos-duration="1500">
+      <img src="img/profil_female.avif">
+      <p>
+قبل التعافي وقبل أن أتعرف عليك كانت ثقتي بنفسي منعدمة وأرى نفسي قبيحة دون ماكياج.. كنت لا أستطيع الخروج من البيت دون أن أضع الكثير والكثير من الماكياج لكن بعد تعرفي عليك استطعت لأول مرة أن أخرج دون أدوات التجميل ولا صبغة شعر.. وجدت نفسي جميلة لأول مرة وتلقيت الكثير من الإطراءات. نسف الإيقو كان من أجمل مراحل التعافي. شكرا !      <p class="review-source">فاطمة، الجزائر</p>
+    </div>
+
+
+    <div class="review" data-aos="fade-up" data-aos-duration="1500">
+      <img src="img/profil_female.avif">
+      <p>
+اليوم بفضل الله تمت جلسة مع كوتش وهيبة. أخبرتها بقصتي وشخصت حالتي وفهمتني. عشت كل المخاوف ومشاعر الألم التي كنت أقاومها من قبل وأهرب منها، و واجهتها لأول مرة بكل وعي وأعكتني حيل لأتعامل معها بهدوء وحكمة. 
+في الجلسة نظفت كل هذه المخاوف وحررتها.. دخلت أبكي وخرجت مطمئنة بفضل الله ومرتاحة.      </p>
+      <p class="review-source">رقية، الجزائر</p>
+    </div>
+
+
+    <div class="review" data-aos="fade-up" data-aos-duration="1500">
+      <img src="img/profil_female.avif">
+      <p style="text-align: left !important;">
+        Je n'étais pas du tout bien.. Il fallait que je comprenne qui j'étais profondement.. Au fur et mesure que j'ai commencé à faire des séances et exercices avec vous, je me suis dis: Il faut que je le fasse. Et Alhamdulilah j'ai réussi et je me sens mieux.. Il faut garder la foi pour retrouver la paix intérieure. Cette théarapie m'a fait tellement du bien.
+      </p>
+      <p class="review-source">Chems, France</p>
+    </div>
+
+
+    <div class="review" data-aos="fade-up" data-aos-duration="1500">
+      <img src="img/profil_female.avif">
+      <p>
+دورة رائعة استفدت منها كثيرا وتعرفت فيها على نفسي لأول مرة واكتشفت لماذا وصلت لهذه الحالة. لقد رممتي ما بداخلي وما انكسر لمدة سنين وسنين.. لذلك أنا أشكرك من كل قلبي.       </p>
+      <p class="review-source">صورية ، الجزائر</p>
+    </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ============== MOTIVATION 2 ============== -->
+  <section class="section4">
+    <img src="img/interior_decor.png" class="computer">
+    <img src="img/interior_decor_tlf.jpg" class="phone">
+    <h1 data-aos="fade-down" data-aos-duration="1500">ابدأ رحلة العلاج الآن</h1>
+
+    <div>
+    <ul>
+      <li data-aos="fade-right" data-aos-duration="1500">حجز جلسات بسهولة</li>
+      <li data-aos="fade-right" data-aos-duration="1500">التعافي من آلام التعلق</li>
+      <li data-aos="fade-right" data-aos-duration="1500">التعافي  من الصدمات</li>
+      <li data-aos="fade-right" data-aos-duration="1500">التعافي من الأمراض العضوية</li>
+    </ul>
+
+    <ul>
+      <li data-aos="fade-left" data-aos-duration="1500">سرية العميل</li>
+      <li data-aos="fade-left" data-aos-duration="1500">عدم إصدار أحكام</li>
+      <li data-aos="fade-left" data-aos-duration="1500">مرونة أثناء الجلسات</li>
+    </ul>
+    </div>
+  
+  </section>
+
+
+
+
+  <!-- ============== Reservation ============== -->
+  <section class="section5" id="reserve" dir="rtl">
+    <h2 data-aos="fade-down" data-aos-duration="1500">احجزي جلسة أو دورة عبر Telegram</h2>
+    <h4 data-aos="fade-down" data-aos-duration="1500">اضغطي على الأيقونة</h4>
+    <ul class="flex-centered" data-aos="fade-up" data-aos-duration="1500">
+      <li><a href="https://t.me/Coach_wahiba_27"><i class="fa-brands fa-telegram"></i> <br>Telegram</a></li>
+    </ul>
+
+    <div class="reserve-method" data-aos="flip-left" data-aos-duration="1500">
+      <h3>كيف أحجز جلسة، تأمل أو دورة ؟</h3>
+
+      <p>
+      الحجز يتم عبر تطبيق تلغرام. تضغطين على أيقونة تلغرام لتحصلي على حساب الكوتش. بعدها تبعثين رسالة للكوتش تكتبين فيها أية جلسة تريدين حجزها أو أي تأمل أو دورة تريدين التسجيل فيها. يتم بعد ذلك الدفع عن طريق ccp.
+      </p>
+      <h1 class="question">?</h1>
+    </div>
+    
+  </section>
+
+
+
+
+
+  <!-- ============== Footer ============== -->
+  <footer class="space-between" dir="rtl">
+    <ul>
+      <label class="logo aref" data-aos="fade-left" data-aos-duration="1500">كوتش وهيبة</label>
+      <p data-aos="fade-left" data-aos-duration="1500">
+        كوتش متخصصة في تقنية <BR>ال PEAT.
+      </p>
+    </ul>
+
+    <ul class="colonne">
+      <li class="titre" data-aos="fade-up" data-aos-duration="1500">معلومات عن الPEAT</li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#">ما هي تقنية ال PEAT ؟</a></li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#">الجلسات المتاحة</a></li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#">آراء العملاء</a></li>
+    </ul>
+
+    <ul class="colonne">
+      <li class="titre" data-aos="fade-up" data-aos-duration="1500">مواقع التواصل الاجتماعي</li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="https://t.me/Coach_wahiba_27"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="https://www.instagram.com/coach_wahiba_27/"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="https://www.tiktok.com/@coachwahiba27"><i class="fa-brands fa-tiktok"></i> Tiktok</a></li>
+    </ul>
+
+    <p class="copyright" data-aos="fade-up" data-aos-duration="1500">Copyright 2025</p>
+  </footer>
+
+
+  <script>document.addEventListener('DOMContentLoaded', () => AOS.init());</script>
+
+</body>
+</html>
