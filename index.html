@@ -453,9 +453,9 @@
 
     <ul class="colonne">
       <li class="titre" data-aos="fade-up" data-aos-duration="1500">معلومات عن الPEAT</li>
-      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#">ما هي تقنية ال PEAT ؟</a></li>
-      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#">الجلسات المتاحة</a></li>
-      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#">آراء العملاء</a></li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#peat">ما هي تقنية ال PEAT ؟</a></li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#seances">الجلسات المتاحة</a></li>
+      <li class="link" data-aos="fade-up" data-aos-duration="1500"><a href="#reviews">آراء العملاء</a></li>
     </ul>
 
     <ul class="colonne">
@@ -469,7 +469,15 @@
   </footer>
 
 
-  <script>document.addEventListener('DOMContentLoaded', () => AOS.init());</script>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => AOS.init());
+
+  document.querySelectorAll("nav ul li a").forEach(link => {
+    link.addEventListener("click", () => {
+      document.getElementById("check").checked = false; // ferme le menu
+    });
+  });
+  </script>
 
 </body>
 </html>
