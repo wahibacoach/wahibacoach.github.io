@@ -65,9 +65,6 @@ p{
   html, body{
     overflow-x: hidden;
   }
-  body{
-    background-color: red;
-  }
 }
 
 
@@ -998,3 +995,4 @@ footer .copyright{
     color: var(--creme_clear)
   }
 }
+
