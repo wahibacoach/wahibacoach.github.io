@@ -62,7 +62,14 @@ p{
   p{
     font-size: 12pt;
   }
+  html, body{
+    overflow-x: hidden;
+  }
+  body{
+    background-color: red;
+  }
 }
+
 
 
 /* ======================= Elements standards ======================= */
@@ -102,7 +109,7 @@ nav {
   height: 80px;
   width: 100%;
   padding-right: 4rem;
-  overflow: hidden; /* Ajoute cette ligne */
+  overflow: hidden;
 }
 nav label.logo {
   color: var(--black_soft);
@@ -170,11 +177,12 @@ nav .checkbtn {
 
 /* Responsive media query code for small screen */
 @media (max-width: 890px) {
-  html, body{
-      overflow-x: hidden;
-  }
   nav{
     padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999999;
   }
   nav .checkbtn {
     display: block;
@@ -270,6 +278,7 @@ nav label.logo img{
     flex-direction: column;
     gap: 2rem;
     margin-top: -2px;
+    height: 100vh;
   }
   .principal .right-part{
     width: 80vw;
@@ -285,7 +294,6 @@ nav label.logo img{
   padding: 0.5rem 2rem; 
 }
 }
-
 
 
 
@@ -335,6 +343,9 @@ nav label.logo img{
 
 
 @media (max-width: 890px){
+  .section1, .section2, .section3, .section4, .section5, .peat, .peat2, footer{
+    margin-top: -2px;
+  }
   .section1{
     padding: 5rem 8vw
   }
@@ -986,5 +997,4 @@ footer .copyright{
   footer .colonne .titre{
     color: var(--creme_clear)
   }
-
 }
