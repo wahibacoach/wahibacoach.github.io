@@ -548,7 +548,7 @@ nav label.logo img{
 /* =======================  SECTION 2 : الجلسات ======================= */
 .section2{
   width: 100%;
-  padding: 6rem 15vw;
+  padding: 6rem 12vw;
   padding-bottom: 0.1rem;
   background-color: var(--white);
 }
@@ -995,4 +995,3 @@ footer .copyright{
     color: var(--creme_clear)
   }
 }
-
